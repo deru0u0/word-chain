@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+
+}
+ul {
+    list-style: none;
+}
+p {
+    margin:0;
+}
+li:first-child {
+    font-weight: bold;
+    font-size: 32px;
+}
+.alertMessage {
+    color: red;
+    
+}
