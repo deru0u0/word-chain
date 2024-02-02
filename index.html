@@ -7,15 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    
-<ul>
-
-</ul>
+ <header>
+    <h2>word chain</h1>
+ </header>   
+ 
+<ul></ul>
     <input type="text" id="text">
-    <input type="button" value="push" id="button">
-
+    <div>
+        <input type="button" value="push" id="button">
+        <input type="button" value="explanation" id="explanationButton">    
+    </div>
     <p>character count:<span id="displayCount"></span></p>
     <p id="alertMessage" class="alertMessage"></p>
+    <div class="explanation-container" id="explanationContainer">
+        <h1 class="explanation-title" id="explanationTitle"></h1>
+        <span id="detailInfomation"></span>
+    </div>
     <script src="./main.js"></script>
 </body>
 </html>

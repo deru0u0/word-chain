@@ -1,9 +1,17 @@
 body {
     margin: 0;
-
+    text-align: center;
+}
+header {
+    border-bottom: 1px solid #111;
+}
+header > h2 {
+    margin: 0;
+    padding:10px 10px 0;
 }
 ul {
     list-style: none;
+    padding: 0;
 }
 p {
     margin:0;
@@ -15,4 +23,13 @@ li:first-child {
 .alertMessage {
     color: red;
     
+}
+
+.explanation-container {
+    border: 1px solid #111;
+    margin: 30px auto;
+    width: 60vh;
+    height: 50vh;
+    text-align: center;
+    display: none;
 }
